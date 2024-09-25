@@ -3,10 +3,10 @@ import pickle
 import numpy as np
 
 # Load the data
-popular_df = pickle.load(open('C:/Users/shahe/Desktop/ML DEPLOYMENT/popular.pkl', 'rb'))
-pt = pickle.load(open('C:/Users/shahe/Desktop/ML DEPLOYMENT/pt.pkl', 'rb'))
-books = pickle.load(open('C:/Users/shahe/Desktop/ML DEPLOYMENT/books.pkl', 'rb'))
-similarity_scores = pickle.load(open('C:/Users/shahe/Desktop/ML DEPLOYMENT/similarity_scores.pkl', 'rb'))
+popular_df = pickle.load(open('popular.pkl', 'rb'))
+pt = pickle.load(open('pt.pkl', 'rb'))
+books = pickle.load(open('books.pkl', 'rb'))
+similarity_scores = pickle.load(open('similarity_scores.pkl', 'rb'))
 
 # Function to recommend books
 def recommend_books(book_title):
